@@ -336,6 +336,7 @@ form button i {margin-right: 7px;}
 #fitness {background: url('../img/fitness.png') center/cover;}
 #switch {background: url('../img/switch.png') center/cover;}
 #medical {background: url('../img/medical.png') center/cover;}
+#darx {background: url('../img/darx.png') center/cover;}
 
 @media only screen and (min-width: 740px) and (max-width: 992px) {
     body {
