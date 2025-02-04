@@ -5,6 +5,7 @@
 }
 .email {word-break: break-word;}
 .bg-goy {background: var(--goy);}
+* {box-sizing: border-box;}
 .container {
     width: 100%;
     padding: 0 10px;
@@ -86,7 +87,7 @@ nav {
 }
 #home h1 {
     position: relative;
-    font: 700 1.8em Poppins;
+    font: 700 1.65em Poppins;
     color: #fff;
     letter-spacing: 1px;
 }
