@@ -326,6 +326,8 @@ form button i {margin-right: 7px;}
     overflow: hidden;
     border-radius: 30px;
     height: 250px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 10px #d7d7d7;
 }
 .site {
     width: 100%;
@@ -369,31 +371,15 @@ form button i {margin-right: 7px;}
     color: var(--qirmizi);
     background: #fff;
     border: none;
-    border-radius: 50%;
+    border-radius: 999px;
     padding: 10px;
     text-align: center;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
- 
-#polo {background: url('../img/polo360.png') center/cover;}
-#fitness {background: url('../img/fitness.png') center/cover;}
-#switch {background: url('../img/switch.png') center/cover;}
-#medical {background: url('../img/medical.png') center/cover;}
-#darx {background: url('../img/darx.png') center/cover;}
-
 @media only screen and (min-width: 740px) and (max-width: 992px) {
-    /* body {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 20vw 1fr;
-        margin: 30px 2vw;
-        column-gap: 1.4vw;
-        position: initial;
-        padding-block: 20px;
-        height: initial;
-    } */
     body {
         position: initial;
         padding-block: 20px;
@@ -569,6 +555,12 @@ form button i {margin-right: 7px;}
     }
     .site:hover {scale: 1.2;}
     .site:hover .cover {opacity: 1;}
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -576,6 +568,11 @@ form button i {margin-right: 7px;}
         position: initial;
         padding-block: 20px;
         height: initial;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
     }
     .screen {
         display: grid;
