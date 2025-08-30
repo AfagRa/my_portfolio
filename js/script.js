@@ -46,8 +46,12 @@ projects.innerHTML = `
                     <div class="cover">
                         <h3>${p.name}</h3>
                         <div class="buttons">
-                            <button href="${p.gitLink}" target="_blank"><i class="fa-solid fa-code"></i></button>    
-                            <button href="${p.link}" target="_blank"><i class="fa-solid fa-globe"></i></button>
+                            <button onclick="event.stopPropagation(); window.open('${p.gitLink}', '_blank')">
+                                <i class="fa-solid fa-code"></i>
+                            </button>    
+                            <button onclick="event.stopPropagation(); window.open('${p.link}', '_blank')">
+                                <i class="fa-solid fa-globe"></i>
+                            </button>
                         </div>    
                     </div>
                 </a>

@@ -32,12 +32,20 @@ export const data = {
 
     project: [
         {
+            name: "Guess",
+            link: "https://guess-clone.vercel.app/",
+            img: "img/guess-home.png",
+            desc: "A responsive clone of the Guess fashion website with category-based navigation, product listing, and dynamic UI built for desktop and mobile.",
+            tech: "HTML, CSS(Tailwind), JavaScript, React, Redux, Vite",
+            gitLink: "https://github.com/AfagRa/guess-clone"
+        },
+        {
             name: "Papa-Johns",
             link: "https://papa-johns-afags-projects.vercel.app/",
             img: "img/papa-johns.png", 
             desc: "A responsive clone of the Papa John's pizza website with dynamic UI elements and mobile-friendly layout.",
             tech: "React, Vite, Tailwind CSS",
-            gitLink: "https://github.com/afagra/papa-johns"
+            gitLink: "https://github.com/AfagRa/papa-johns"
         },
         {
             name: "To-do list",
@@ -45,7 +53,7 @@ export const data = {
             img: "img/todo-list.png",
             desc: "A task management app with add, delete, and filter functionalities. Features a recycle bin for deleted tasks.",
             tech: "React, Redux Toolkit, Tailwind CSS, Vite",
-            gitLink: "https://github.com/afagra/to-do-list"
+            gitLink: "https://github.com/AfagRa/to-do-list"
         },
         {
             name: "Park Cinema",
@@ -53,7 +61,7 @@ export const data = {
             img: "img/park-cinema.png",
             desc: "A cinema booking interface featuring movie categories, filtering, and detailed movie pages.",
             tech: "React, React Router, Tailwind CSS, Vite",
-            gitLink: "https://github.com/afagra/park-cinema"
+            gitLink: "https://github.com/AfagRa/park-cinema"
         },
         {
             name: "Healthcare Dashboard",
@@ -61,7 +69,7 @@ export const data = {
             img: "img/healthcare.png",
             desc: "An admin-style dashboard UI for healthcare analytics, with charts, stats, and responsive grid layout.",
             tech: "React, Tailwind CSS, Vite, Chart.js",
-            gitLink: "https://github.com/afagra/healthcare-dashboard"
+            gitLink: "https://github.com/AfagRa/healthcare-dashboard"
         },
         {
             name: "Darx",
@@ -69,7 +77,7 @@ export const data = {
             img: "img/darx.png",
             desc: "A dark-themed modern landing page suitable for tech startups and SaaS products.",
             tech: "HTML, CSS, JavaScript",
-            gitLink: "https://github.com/afagra/darx"
+            gitLink: "https://github.com/AfagRa/darx"
         },
         {
             name: "Medical",
@@ -77,7 +85,7 @@ export const data = {
             img: "img/medical.png",
             desc: "A multi-section landing page for a medical clinic, showcasing services, doctors, and contact info.",
             tech: "HTML, CSS, JavaScript",
-            gitLink: "https://github.com/afagra/medical"
+            gitLink: "https://github.com/AfagRa/medical"
         },
         {
             name: "Switch",
@@ -85,7 +93,7 @@ export const data = {
             img: "img/switch.png",
             desc: "A landing page design with smooth UI interactions and bold, modern visuals.",
             tech: "HTML, CSS, JavaScript",
-            gitLink: "https://github.com/afagra/switch"
+            gitLink: "https://github.com/AfagRa/switch"
         },
         {
             name: "Fitness",
@@ -93,7 +101,7 @@ export const data = {
             img: "img/fitness.png",
             desc: "A clean landing page for a gym or fitness brand, highlighting classes and personal trainers.",
             tech: "HTML, CSS, JavaScript",
-            gitLink: "https://github.com/afagra/fitness"
+            gitLink: "https://github.com/AfagRa/fitness"
         },
         {
             name: "Polo360",
@@ -101,7 +109,7 @@ export const data = {
             img: "img/polo360.png",
             desc: "Corporate-style landing page with sections for features, pricing, and testimonials.",
             tech: "HTML, CSS, JavaScript",
-            gitLink: "https://github.com/afagra/polo360"
+            gitLink: "https://github.com/AfagRa/polo360"
         }
     ]
 
