@@ -33,7 +33,7 @@ export const data = {
         },
         {
             name: "SQL",
-            percent: 60,
+            percent: 70,
         },
     ],
 
