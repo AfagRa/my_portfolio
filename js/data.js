@@ -2,7 +2,7 @@ export const data = {
     skill: [
         {
             name: "HTML",
-            percent: 90,
+            percent: 100,
         },
         {
             name: "CSS",
@@ -14,11 +14,11 @@ export const data = {
         },
         {
             name: "Bootstrap",
-            percent: 70,
+            percent: 90,
         },
         {
             name: "JavaScript",
-            percent: 80,
+            percent: 90,
         },
         {
             name: "React",
@@ -26,7 +26,14 @@ export const data = {
         },
         {
             name: "Git",
+            percent: 80,
+        },{
+            name: "PHP",
             percent: 70,
+        },
+        {
+            name: "SQL",
+            percent: 60,
         },
     ],
 
