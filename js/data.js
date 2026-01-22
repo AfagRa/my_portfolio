@@ -6,15 +6,15 @@ export const data = {
         },
         {
             name: "CSS",
-            percent: 90,
+            percent: 95,
         },
         {
             name: "Tailwind CSS",
-            percent: 90,
+            percent: 95,
         },
         {
             name: "Bootstrap",
-            percent: 90,
+            percent: 95,
         },
         {
             name: "JavaScript",
@@ -22,22 +22,35 @@ export const data = {
         },
         {
             name: "React",
-            percent: 80,
+            percent: 90,
         },
         {
             name: "Git",
             percent: 80,
         },{
             name: "PHP",
+            percent: 80,
+        },
+        {
+            name: "Laravel",
             percent: 70,
         },
         {
             name: "SQL",
-            percent: 70,
+            percent: 85,
         },
     ],
 
     project: [
+        {
+            name: "Debate Club Website",
+            link: "https://debate.bhos.club/",
+            img: "img/debate.png",
+            desc: "A responsive website created for a university debate club to present club information, events, and activities with a clear and user-friendly layout across desktop and mobile devices.",
+            tech: "HTML, CSS (Tailwind), JavaScript, React",
+            gitLink: "https://github.com/AfagRa/debate_new_version"
+            }
+            ,
         {
             name: "Guess",
             link: "https://guess-clone.vercel.app/",
